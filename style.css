@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.705);
+    
+}
+h1{
+    font-family:'JetBrains Mono', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px 0;
+    text-align: justify;
+}
+.container-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Perfil{
+    border-radius: 50%;
+    height: 170px;
+    flex-shrink: 0;
+}
+ul {
+    list-style: disc inside;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+ul li {
+    margin-bottom: 8px;
+}
+.container{
+    width:90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.link:hover {
+    background-color: #2980b9;
+}
+ul li{
+    margin-bottom: 8px; 
+}
+hr {
+    border: none;               
+    height: 2px;                
+    background-color: rgba(0,0,0,0.2); 
+    margin: 20px ;        
+}
+.material-symbols-outlined{
+    margin-left: 10px;
+}
+.menu{
+    text-align: center;
+    
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.final a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #004e81;
+}
+.final a:hover {
+    color: #8b8b8b;
+}
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

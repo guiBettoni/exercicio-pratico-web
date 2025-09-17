@@ -1,0 +1,64 @@
+body{
+    font: 20px impact, sans-serif;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    background-image: url(thriller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#principal {
+    border: 10px solid rgba(109, 96, 96, 0.219);
+    border-radius: 5px;
+    height: 500px;
+    width: 900px;
+    background-color: #94949470;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;                  /* ativa o flexbox */
+    flex-direction: column;        /* empilha os filhos verticalmente */
+    justify-content: center;       /* centraliza verticalmente */
+    align-items: center;           /* centraliza horizontalmente */
+
+    text-align: center;
+}
+.botoes{
+    text-decoration: none;
+    margin-top:10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.link1{
+    padding: 10px 20px;
+    background: rgba(128, 128, 128, 0);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.link1:hover{
+    background: rgba(0, 0, 0, 0.432);
+    color: white;
+}
+.link2{
+    padding: 10px 20px;
+    background: rgba(128, 128, 128, 0);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.link2:hover{
+    background: rgba(0, 0, 0, 0.432);
+    color: white;
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+li{
+    text-align: left;
+}
+.botao:hover{
+    background-color: rgb(255, 91, 118);
+}
